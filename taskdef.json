@@ -35,7 +35,7 @@
         { "name": "DB_SSLMODE", "value": "require" },
         { "name": "SECRET_KEY", "value": "devops-masters-entrega1-secret" },
         { "name": "JWT_SECRET_KEY", "value": "devops-masters-entrega1-jwt-secret-key" },
-        { "name": "NEW_RELIC_LICENSE_KEY", "value": "1b14662bb13bed28c1bd2c953e3ebc8cb68bNRAL" },
+        { "name": "NEW_RELIC_LICENSE_KEY", "value": "0abb699760114ef01e9b03af26bdf769c86cNRAL" },
         { "name": "NEW_RELIC_APP_NAME", "value": "blacklist-service" },
         { "name": "NEW_RELIC_LOG", "value": "stdout" },
         { "name": "NEW_RELIC_LOG_LEVEL", "value": "info" },
