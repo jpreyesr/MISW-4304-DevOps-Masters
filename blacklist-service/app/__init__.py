@@ -10,7 +10,7 @@ db = SQLAlchemy()
 ma = Marshmallow()
 jwt = JWTManager()
 
-# Prueba de commit para verificar que se sube a GitHub correctamente
+
 def create_app(config_object=Config, config_overrides=None):
     app = Flask(__name__)
     app.config.from_object(config_object)
