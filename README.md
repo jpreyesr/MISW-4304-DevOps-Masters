@@ -1,6 +1,6 @@
 # MISW-4304 DevOps Masters
 
-Este repositorio contiene el microservicio `blacklist-service` y está preparado para una fase de Integración Continua enfocada en pruebas unitarias y generación de artefactos con AWS CodeBuild.
+Este repositorio contiene el microservicio `blacklist-service` y está preparado para una fase de Integración Continua enfocada en pruebas unitarias y generación de artefactos con AWS CodeBuild...
 
 ## CI del repositorio
 
