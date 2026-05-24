@@ -21,9 +21,10 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
 
+      - name: Install git-remote-codecommit
+        run: pip install git-remote-codecommit
+
       - name: Mirror to CodeCommit
         run: |
-          git config --global credential.helper '!aws codecommit credential-helper $@'
-          git config --global credential.UseHttpPath true
-          git remote add codecommit https://git-codecommit.us-east-1.amazonaws.com/v1/repos/blacklist-service
+          git remote add codecommit codecommit::us-east-1://blacklist-service
           git push codecommit main --force
