@@ -1,6 +1,3 @@
-import newrelic.agent
-newrelic.agent.initialize('newrelic.ini')
-
 from app import create_app
 
 application = newrelic.agent.WSGIApplicationWrapper(create_app())
